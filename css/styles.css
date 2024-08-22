@@ -1,0 +1,185 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+
+    padding: 5px 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40%;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-items li a {
+    color: #eeee;
+    text-transform: uppercase;
+}
+
+#login-btn {
+    background-color: #0d745a;
+    color: #fff;
+
+    border-radius: 4px;
+
+    padding: 13px 20px;
+}
+
+.banner {
+    background-image: url("../img/mainbanner.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.banner h2 {
+    color: #fff;
+}
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.benefits h3 {
+    display: flex;
+    align-content: center;
+    font-size: 20px;
+
+}
+
+.benefits ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    list-style: none;
+    text-align: center;
+    gap: 16px;
+
+}
+
+.benefits-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.fas{
+    font-size: 40px;
+
+}
+
+.fa-shield-alt{
+    color: #2cc76a;
+}
+
+.fa-rocket{
+    color: #ef3f29;
+}
+
+.fa-comments {
+    color: #ef8f29;
+}
+
+.packages header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 20px;
+    list-style: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #232a31;
+    width: 250px;
+    height: 300px;
+}
+.card header{
+    background-color: #c2b18e;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0px;
+
+}
+.price{
+    background-color: #991d1dec;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    color: #fff;
+}
+
+.card footer{
+    width: 100%;
+
+}
+.card footer button{
+    padding: 8px 16px;
+    width: 100%;
+    display: flex;
+    margin-bottom: -30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0d745a;
+    text-align: center;
+    line-height: 1;
+
+}
+.card-content {
+    padding: 0px 16px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    color:rgb(238, 230, 220);
+}
