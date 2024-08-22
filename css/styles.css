@@ -106,14 +106,29 @@
 .fa-comments {
     color: #ef8f29;
 }
-
-.packages header{
+.packages{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.packages header h1{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    gap: 8px;
+    font-size: 45px;
+    gap: 60px;
+}
+.packages header p{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+       font-size: 20px;;
+       
 }
 
 .plans {
@@ -121,7 +136,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 80px;
     padding: 20px;
     list-style: none;
 }
@@ -131,21 +146,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #232a31;
+    background:#ccb8a2;
     width: 250px;
     height: 300px;
 }
 .card header{
-    background-color: #c2b18e;
+    background-color: #050505;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 18px 0px;
+    gap: 10px;
+    
+}
 
+.card header h3{
+    color:aliceblue;
 }
 .price{
-    background-color: #991d1dec;
+    background-color: #ef3f29;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -171,7 +191,6 @@
     font-weight: bold;
     background-color: #0d745a;
     text-align: center;
-    line-height: 1;
 
 }
 .card-content {
@@ -181,5 +200,9 @@
     display: flex;
     flex-direction: column;
     gap:8px;
-    color:rgb(238, 230, 220);
+}
+
+.card-content p{
+    color:#050505;
+
 }
